@@ -1,0 +1,122 @@
+.flex_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#logo {
+    display: flex;
+}
+
+.menu,
+.tel,
+.but_project {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menulink {
+    margin-left: 45px;
+    margin-right: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #1C1D28;
+    text-decoration: none;
+}
+
+.menulink:hover {
+    text-decoration: underline;
+}
+
+.main_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.block_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tel {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+
+    letter-spacing: 0.02em;
+
+    color: #1C1D28;
+}
+
+.but_project:hover {
+    border: 3px solid #413f3f;
+}
+
+.menulink:active {
+    color: blue;
+}
+
+.menulink:visited {
+    color: #808080;
+}
+
+.studio_name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 145%;
+
+    letter-spacing: 0.05em;
+
+    color: #1C1D28;
+}
+
+.about {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 145%;
+
+    letter-spacing: 0.02em;
+
+    color: #1C1D28;
+}
+
+.graf_des {
+    position: absolute;
+    width: 381px;
+    height: 130px;
+    left: 650px;
+    top: 200px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 145%;
+
+    letter-spacing: 0.02em;
+
+    color: #1C1D28;
+}
+
+#ris_design {
+    margin-top: 50px;
+    margin-right: 100px;
+    background: url(assets/images/design.png);
+}
+
+#but_talk:hover {
+    border: 3px solid #413f3f;
+}
